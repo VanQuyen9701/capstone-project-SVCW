@@ -1,0 +1,332 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SVCW</name>
+    </assembly>
+    <members>
+        <member name="T:SVCW.Controllers.AchivementController">
+            <summary>
+            hjhj
+            </summary>
+        </member>
+        <member name="M:SVCW.Controllers.AchivementController.GetAllAchivement">
+            <summary>
+            admin, moderator
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SVCW.Controllers.AchivementController.GetAchivementById(System.String)">
+            <summary>
+            admin, moderator
+            </summary>
+            <param name="achivementId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SVCW.Controllers.AchivementController.InsertFood(SVCW.DTOs.Achivements.AchivementDTO)">
+            <summary>
+            admin, moderator
+            </summary>
+            <param name="achivementId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SVCW.Controllers.AchivementController.achivementUser(System.String,System.String)">
+            <summary>
+            admin, moderate
+            </summary>
+            <param name="achivementId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SVCW.Controllers.AchivementController.UpdateAchivement(SVCW.DTOs.Achivements.AchivementDTO)">
+            <summary>
+            admin, moderator
+            </summary>
+            <param name="upAchivement"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SVCW.Controllers.AchivementController.DeleteFood(System.String)">
+            <summary>
+            admin, moderator
+            </summary>
+            <param name="achivementId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SVCW.Controllers.ActivityController.deleteAdmin(System.String)">
+            <summary>
+            admin, moderator
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SVCW.Controllers.ActivityController.getPending">
+            <summary>
+            Pending activity
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SVCW.Controllers.ActivityController.getall(System.Int32,System.Int32)">
+            <summary>
+            admin, moderator
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SVCW.Controllers.ActivityController.getid(System.String)">
+            <summary>
+            admin, moderator
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SVCW.Controllers.ActivityController.getActivityBeforeStartDate">
+            <summary>
+            chiến dịch sắp diễn ra
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SVCW.Controllers.ActivityController.getActivityBeforeEndDate">
+            <summary>
+            chiến dịch đang diễn ra
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SVCW.Controllers.ActivityController.getActivityAfterEndDate">
+            <summary>
+            chiến dịch đã diễn ra
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SVCW.Controllers.ActivityController.getActivityAfterEndDateUser(System.String)">
+            <summary>
+            chiến dịch đã diễn ra
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SVCW.Controllers.CommentController.getComment">
+            <summary>
+            admin, moderator
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SVCW.Controllers.CommentController.deleteComment(System.String)">
+            <summary>
+            admin, moderator
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SVCW.Controllers.DonationController.getall">
+            <summary>
+            admin, moderator
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SVCW.Controllers.DonationController.getDonationActivity(System.String)">
+            <summary>
+            admin, moderator
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SVCW.Controllers.EmailController.sendEmail(SVCW.DTOs.Email.SendEmailReqDTO)">
+            <summary>
+            example: {"sendTo": "","subject": "Great party yesterday!","body": "<i>I drank waaaayyy too much! :D</i>"}
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:SVCW.Controllers.EmailController.sendEmailTamplate(SVCW.DTOs.Email.SendEmailWithTamplateReqDTO)" -->
+        <member name="M:SVCW.Controllers.FanpageController.delete(System.String)">
+            <summary>
+            admin, moderator
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SVCW.Controllers.FanpageController.getall">
+            <summary>
+            admin, moderator
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SVCW.Controllers.FanpageController.getModerate">
+            <summary>
+            admin, moderator
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SVCW.Controllers.FanpageController.moderate(System.String)">
+            <summary>
+            admin, moderator
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SVCW.Controllers.ModeratorController.dreate(SVCW.DTOs.Admin_Moderator.Moderator.CreateModerator)">
+            <summary>
+            require: nhập hết nha
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SVCW.Controllers.NotificationController">
+            <summary>
+            hjhj
+            </summary>
+        </member>
+        <member name="M:SVCW.Controllers.NotificationController.updateNoti(System.String,SVCW.DTOs.Notifications.NotificationDTO)">
+            <summary>
+            key nao update moi truyen nha
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SVCW.Controllers.ReportController.getAllReport2(System.Int32)">
+            <summary>
+            hàm get all nhưng có theo ngày tháng năm
+            </summary>
+            <param name="type"> 
+            type = 0 như getAll bình thường 
+            
+            type = 1 sort theo  24h trước 
+            
+            type = 2 sort theo 1 tuần trước 
+            
+            type = 3 sort theo 30 ngày trước
+            </param>
+            <returns>
+            </returns>
+        </member>
+        <member name="M:SVCW.Controllers.ReportTypeController.GetAllAchivement">
+            <summary>
+            admin, moderator
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SVCW.Controllers.ReportTypeController.GetAchivementById(System.String)">
+            <summary>
+            admin, moderator
+            </summary>
+            <param name="reportTypeId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SVCW.Controllers.ReportTypeController.SearchByNameReportType(System.String)">
+            <summary>
+            admin, moderator
+            </summary>
+            <param name="reportTypeName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SVCW.Controllers.ReportTypeController.InsertReportType(SVCW.DTOs.ReportTypes.ReportTypeDTO)">
+            <summary>
+            admin, moderator
+            </summary>
+            <param name="reportType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SVCW.Controllers.ReportTypeController.UpdateReportType(SVCW.DTOs.ReportTypes.ReportTypeDTO)">
+            <summary>
+            admin, moderator
+            </summary>
+            <param name="upReportType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SVCW.Controllers.ReportTypeController.DeleteReportType(System.Collections.Generic.List{System.String})">
+            <summary>
+            admin, moderator
+            </summary>
+            <param name="achivementId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SVCW.Controllers.RoleController.Insert(SVCW.DTOs.Roles.RoleCreateDTO)">
+            <summary>
+            admin
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SVCW.Controllers.RoleController.update(SVCW.DTOs.Roles.RoleUpdateDTO)">
+            <summary>
+            admin
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SVCW.Controllers.RoleController.delete(System.String)">
+            <summary>
+            admin
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SVCW.Controllers.RoleController.getall">
+            <summary>
+            admin
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SVCW.Controllers.RoleController.getName(System.String)">
+            <summary>
+            admin
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SVCW.Controllers.RoleController.getId(System.String)">
+            <summary>
+            admin
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SVCW.Controllers.UserController.validateLoginUser(SVCW.DTOs.Users.Req.LoginReq)">
+            <summary>
+            Required{email} -- nếu là new user -> userdata
+            </summary>
+            <param name="LoginReq"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SVCW.Controllers.UserController.createUser(SVCW.DTOs.Users.Req.CreateUserReq)">
+            <summary>
+            Required{email}
+            </summary>
+            <param name="req"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SVCW.Controllers.UserController.LoginUserName(SVCW.DTOs.Users.LoginDTO)">
+            <summary>
+            này là có hàm băm j đó của Ước
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SVCW.Controllers.UserController.updateUser(SVCW.DTOs.Users.Req.UpdateUserReq)">
+            <summary>
+            Required{userId, >= 1 thông tin update}
+            </summary>
+            <param name="req"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SVCW.Controllers.VNPayController.#ctor(Microsoft.Extensions.Configuration.IConfiguration,SVCW.Models.SVCWContext,System.Net.Http.IHttpClientFactory,SVCW.Interfaces.IEmail)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="M:SVCW.Controllers.VNPayController.Get(System.String)">
+            <summary>
+            [Guest] Endpoint for company create url payment with condition
+            </summary>
+            <returns>List of user</returns>
+            <response code="200">Returns the list of user</response>
+            <response code="204">Returns if list of user is empty</response>
+            <response code="403">Return if token is access denied</response>
+        </member>
+        <member name="M:SVCW.Controllers.VNPayController.Confirm">
+            <summary>
+            [Guest] Endpoint for company confirm payment with condition
+            </summary>
+            <returns>List of user</returns>
+            <response code="200">Returns the list of user</response>
+            <response code="204">Returns if list of user is empty</response>
+            <response code="403">Return if token is access denied</response>
+        </member>
+    </members>
+</doc>
